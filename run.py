@@ -23,7 +23,8 @@ locs = ["Montana",
 "Hawaii",
 "Philadelphia",
 "Orlando",
-"Texas"]
+"Texas",
+"Chicago"]
 
 print("1 for first option, 2 for second option, 3 for tie")
 for i in range(1, len(locs)):
