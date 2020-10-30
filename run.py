@@ -36,6 +36,8 @@ for i in range(1, len(locs)):
 			break
 		if inputR == "3":
 			prefOrder[j].append(locs[i])
+			done = True
+			break
 	if done == False:
 		prefOrder.append([locs[i]])
 
